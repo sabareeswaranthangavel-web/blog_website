@@ -206,11 +206,13 @@ header {
   text-decoration: none;
   font-size: 1em;
   padding: 5px 10px;
+  
 }
 
 .main-nav a.active,
 .main-nav a:hover {
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* Social Icons */
@@ -313,4 +315,9 @@ footer {
 
 .footer-contact a:hover {
   color: #fff;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
